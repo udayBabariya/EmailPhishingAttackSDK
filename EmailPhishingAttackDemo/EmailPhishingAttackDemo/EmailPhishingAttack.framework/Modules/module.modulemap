@@ -1,0 +1,11 @@
+framework module EmailPhishingAttack {
+  umbrella header "EmailPhishingAttack.h"
+
+  export *
+  module * { export * }
+}
+
+module EmailPhishingAttack.Swift {
+    header "EmailPhishingAttack-Swift.h"
+    requires objc
+}
